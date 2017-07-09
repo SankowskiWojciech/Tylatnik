@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="vBoxLayout" alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.VBoxController">
+    <children>
+        <fx:include source="Menu.fxml"/>
+        <ToolBar id="toolbar" fx:id="toolbar" prefHeight="40.0" prefWidth="200.0">
+            <items>
+                <Button id="boldItem" fx:id="boldItem" text="Pogrubienie" />
+                <Button id="italicsItem" fx:id="italicsItem" text="Kursywa" />
+                <Button id="emphasisItem" fx:id="emphasisItem" text="Podkreślenie" />
+                <Button id="lowerItem" fx:id="lowerItem" text="Małe litery" />
+                <Button id="upperItem" fx:id="upperItem" text="Duże litery" />
+                <ChoiceBox id="fontSizeItem" fx:id="fontSizeItem" prefWidth="150.0" />
+            </items>
+        </ToolBar>
+        <TextArea id="textArea" fx:id="textArea" prefHeight="745.0" prefWidth="1213.0" />
+    </children>
+</VBox>
