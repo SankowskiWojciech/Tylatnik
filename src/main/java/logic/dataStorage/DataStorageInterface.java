@@ -1,6 +1,6 @@
 package logic.dataStorage;
 
-public interface DataStorageInterface <T> {
-    public T getData();
-    public void setData(T data);
+public interface DataStorageInterface {
+    public String getText();
+    public void setText(String value);
 }
