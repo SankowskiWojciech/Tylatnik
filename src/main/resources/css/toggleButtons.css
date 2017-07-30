@@ -1,0 +1,63 @@
+#boldButton {
+    -fx-background-image: url("../icons/bold.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#boldButton:selected{
+    -fx-background-image: url("../icons/boldPressed.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#italicsButton {
+    -fx-background-image: url("../icons/italics.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#italicsButton:selected {
+    -fx-background-image: url("../icons/italicsPressed.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#lowerLettersButton {
+    -fx-background-image: url("../icons/lower.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#lowerLettersButton:selected {
+    -fx-background-image: url("../icons/lowerPressed.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#upperLettersButton {
+    -fx-background-image: url("../icons/upper.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#upperLettersButton:selected {
+    -fx-background-image: url("../icons/upperPressed.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}

@@ -1,0 +1,15 @@
+#leftArrow {
+    -fx-background-image: url("../icons/leftArrow.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#rightArrow {
+    -fx-background-image: url("../icons/rightArrow.jpg");
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
